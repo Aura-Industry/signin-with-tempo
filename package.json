@@ -1,0 +1,29 @@
+{
+  "name": "sign-in-with-tempo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "push:github": "bash ./scripts/squash-and-push-github.sh"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.16",
+    "lucide-react": "^0.577.0",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "viem": "^2.44.4",
+    "wagmi": "^3.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5"
+  }
+}
